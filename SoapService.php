@@ -155,7 +155,7 @@ class SoapService extends Component
 
         list(, $hash) = explode(' ', \Yii::$app->getRequest()->getHeaders()->get('authorization') . ' ');
         $auth = $hash ? base64_decode($hash) . '@' : '';
-        $server = new \SoapServer(str_replace('http://', 'http://' . $auth, $this->wsdlUrl), $this->getOptions());
+        $server = new \SoapServer(str_replace(['http://', 'https://'], ['http://' . $auth, 'https://' . $auth], $this->wsdlUrl), $this->getOptions());
         try {
             if ($this->persistence !== null) {
                 $server->setPersistence($this->persistence);
