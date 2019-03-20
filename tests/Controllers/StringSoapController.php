@@ -1,5 +1,5 @@
 <?php
-namespace subdee\soapserver\tests\Controllers;
+namespace ivankff\soapserver\tests\Controllers;
 
 /**
  * @description test for StringArrayModel
@@ -27,11 +27,11 @@ class StringSoapController
 
     /**
      * Simple test which returns a StringArrayModel in order to see how the wsdl pans out
-     * @return \subdee\soapserver\tests\models\StringArrayModel
+     * @return \ivankff\soapserver\tests\models\StringArrayModel
      * @soap
      */
     public function getRules()
     {
-        return new \subdee\soapserver\tests\models\StringArrayModel();
+        return new \ivankff\soapserver\tests\models\StringArrayModel();
     }
 }

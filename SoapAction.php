@@ -30,7 +30,7 @@
  * @package system.web.services
  * @since 1.0
  */
-namespace subdee\soapserver;
+namespace ivankff\soapserver;
 
 use yii\base\Action;
 use yii\web\Response;

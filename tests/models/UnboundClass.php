@@ -1,5 +1,5 @@
 <?php
-namespace subdee\soapserver\tests\models;
+namespace ivankff\soapserver\tests\models;
 
 /**
  * @description Model needed for test for Unbouded variables

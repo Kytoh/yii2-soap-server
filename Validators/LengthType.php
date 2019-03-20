@@ -1,5 +1,5 @@
 <?php
-namespace subdee\soapserver\Validators;
+namespace ivankff\soapserver\Validators;
 
 /**
  * Length == alias for StringType, needs to exists because of the simple matching we do for validatortype -> this class

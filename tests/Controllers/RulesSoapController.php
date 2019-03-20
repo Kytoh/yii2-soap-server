@@ -1,5 +1,5 @@
 <?php
-namespace subdee\soapserver\tests\Controllers;
+namespace ivankff\soapserver\tests\Controllers;
 
 /**
  * @description Test for RulesTestModel
@@ -26,11 +26,11 @@ class RulesSoapController
 
     /**
      * Simple test which returns a RulesTestModel in order to see how the wsdl pans out
-     * @return \subdee\soapserver\tests\models\RulesTestModel
+     * @return \ivankff\soapserver\tests\models\RulesTestModel
      * @soap
      */
     public function getRules()
     {
-        return new \subdee\soapserver\tests\models\RulesTestModel();
+        return new \ivankff\soapserver\tests\models\RulesTestModel();
     }
 }

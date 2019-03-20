@@ -1,5 +1,5 @@
 <?php
-namespace subdee\soapserver\tests\Controllers;
+namespace ivankff\soapserver\tests\Controllers;
 
 /**
  * @description Very simple testcase

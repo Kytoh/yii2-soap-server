@@ -1,8 +1,8 @@
 <?php
-namespace subdee\soapserver\tests;
+namespace ivankff\soapserver\tests;
 
 use Codeception\TestCase\Test;
-use subdee\soapserver\Validators\IntegerType;
+use ivankff\soapserver\Validators\IntegerType;
 use yii\validators\NumberValidator;
 use yii\i18n\Formatter;
 
@@ -12,7 +12,7 @@ use yii\i18n\Formatter;
  */
 class IntegerTypeValidatorTest extends Test
 {
-    /** @var \subdee\soapserver\Validators\SimpleType */
+    /** @var \ivankff\soapserver\Validators\SimpleType */
     private $validator;
 
     public function setUp()

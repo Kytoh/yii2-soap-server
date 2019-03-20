@@ -1,9 +1,9 @@
 <?php
-namespace subdee\soapserver\tests;
+namespace ivankff\soapserver\tests;
 
 use Codeception\TestCase\Test;
-use subdee\soapserver\tests\Controllers\SoapController;
-use subdee\soapserver\SoapService;
+use ivankff\soapserver\tests\Controllers\SoapController;
+use ivankff\soapserver\SoapService;
 
 /**
  * @description Test for SoapService class

@@ -1,5 +1,5 @@
 <?php
-namespace subdee\soapserver\tests\Controllers;
+namespace ivankff\soapserver\tests\Controllers;
 
 /**
  * @description Testcase for an unbounded array
@@ -26,11 +26,11 @@ class UnboundedSoapController
 
     /**
      * Simple test which returns a unboundedtest
-     * @return \subdee\soapserver\tests\models\UnboundedTestModel
+     * @return \ivankff\soapserver\tests\models\UnboundedTestModel
      * @soap
      */
     public function getUnbounded()
     {
-        return new \subdee\soapserver\tests\models\UnboundedTestModel();
+        return new \ivankff\soapserver\tests\models\UnboundedTestModel();
     }
 }

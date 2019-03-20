@@ -1,5 +1,5 @@
 <?php
-namespace subdee\soapserver\Validators;
+namespace ivankff\soapserver\Validators;
 
 /**
  * @description Validator for explicit Doubles

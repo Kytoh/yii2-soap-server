@@ -1,5 +1,5 @@
 <?php
-namespace subdee\soapserver\Validators;
+namespace ivankff\soapserver\Validators;
 
 /**
  * @description TokenType supports regexp's

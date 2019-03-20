@@ -1,10 +1,10 @@
 <?php
-namespace subdee\soapserver\tests;
+namespace ivankff\soapserver\tests;
 
 use Codeception\TestCase\Test;
-use subdee\soapserver\SoapService;
-use subdee\soapserver\tests\Controllers\RulesSoapController;
-use subdee\soapserver\WsdlGenerator;
+use ivankff\soapserver\SoapService;
+use ivankff\soapserver\tests\Controllers\RulesSoapController;
+use ivankff\soapserver\WsdlGenerator;
 
 /**
  * @description RulesTest

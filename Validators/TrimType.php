@@ -1,5 +1,5 @@
 <?php
-namespace subdee\soapserver\Validators;
+namespace ivankff\soapserver\Validators;
 
 /**
  * Empty, we can't tell the wsdl user what to do here, so we ignore this model validation type

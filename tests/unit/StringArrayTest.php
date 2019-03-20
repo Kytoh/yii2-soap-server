@@ -1,9 +1,9 @@
 <?php
-namespace subdee\soapserver\tests;
+namespace ivankff\soapserver\tests;
 
 use Codeception\TestCase\Test;
-use subdee\soapserver\tests\Controllers\StringSoapController;
-use subdee\soapserver\WsdlGenerator;
+use ivankff\soapserver\tests\Controllers\StringSoapController;
+use ivankff\soapserver\WsdlGenerator;
 
 /**
  * @description Test for string arrays

@@ -29,7 +29,7 @@
  * @since 1.0
  */
 
-namespace subdee\soapserver;
+namespace ivankff\soapserver;
 
 use yii\base\Component;
 use yii\base\Exception;

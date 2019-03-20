@@ -1,9 +1,9 @@
 <?php
-namespace subdee\soapserver\tests;
+namespace ivankff\soapserver\tests;
 
 use Codeception\TestCase\Test;
-use subdee\soapserver\SoapService;
-use subdee\soapserver\tests\Controllers\DualRuleSoapController;
+use ivankff\soapserver\SoapService;
+use ivankff\soapserver\tests\Controllers\DualRuleSoapController;
 
 /**
  * @description Test for double rules on a field, eg. required and date, or required and number

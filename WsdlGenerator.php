@@ -156,9 +156,9 @@
  * @since 1.0
  */
 
-namespace subdee\soapserver;
+namespace ivankff\soapserver;
 
-use subdee\soapserver\Validators\SimpleType;
+use ivankff\soapserver\Validators\SimpleType;
 use yii\base\Component;
 use yii\validators\Validator;
 

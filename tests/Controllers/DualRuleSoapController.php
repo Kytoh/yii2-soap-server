@@ -1,6 +1,6 @@
 <?php
 
-namespace subdee\soapserver\tests\Controllers;
+namespace ivankff\soapserver\tests\Controllers;
 
 /**
  * @description Test soap controller for DualRule test
@@ -28,11 +28,11 @@ class DualRuleSoapController
 
     /**
      * Simple test which returns a RulesTestModel in order to see how the wsdl pans out
-     * @return \subdee\soapserver\tests\models\DualRuleTestModel
+     * @return \ivankff\soapserver\tests\models\DualRuleTestModel
      * @soap
      */
     public function getTest()
     {
-        return new \subdee\soapserver\tests\models\DualRuleTestModel();
+        return new \ivankff\soapserver\tests\models\DualRuleTestModel();
     }
 }
